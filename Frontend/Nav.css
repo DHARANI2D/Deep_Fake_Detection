@@ -1,0 +1,36 @@
+/* Nav.css */
+
+nav {
+    background-color: #1a2029;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);;
+    padding: 20px;
+    color: #fff;
+    top:0;
+    z-index: 1;
+    width: 100%;
+    position:fixed;
+    margin-bottom:200px;
+    margin-right: 10px;
+  }
+  ul {
+    list-style: none;
+    padding: 10;
+    margin: 0;
+    display: inline-flex;
+  }
+  
+  li {
+    margin-right: 10px;
+  }
+  
+  a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    transition: color 0.3s ease; /* Add a smooth transition for color change */
+  }
+  
+  a:hover {
+    color: #6d75ff;
+  }
+  
